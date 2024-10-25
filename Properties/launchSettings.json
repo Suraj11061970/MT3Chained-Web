@@ -1,0 +1,31 @@
+{
+  "profiles": {
+    "MathTrick3Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=a72ba264-c6cc-415f-8772-3862152a61b9;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "http://localhost:5110"
+    },
+    "BtoK": {
+      "commandName": "AzureDevSpacesLocal",
+      "launchBrowser": true
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/MT3Chained-Web",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:65355/",
+      "sslPort": 0
+    }
+  }
+}
